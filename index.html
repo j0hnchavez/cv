@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>John Chavez's Resume</title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="funcs.js"></script>
+    <script>
+        render_md("sidebar")
+        render_md("main")
+    </script>
+    <div class="resume">
+        <div class="sidebar"></div>
+        <div class="main"></div>
+    </div>
+</body>
+
+</html>
